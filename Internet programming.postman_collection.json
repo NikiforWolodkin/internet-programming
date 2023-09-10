@@ -1,0 +1,160 @@
+{
+	"info": {
+		"_postman_id": "a79cd0e5-8b16-44f7-9113-5e8429b719b2",
+		"name": "Internet programming",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "28253557"
+	},
+	"item": [
+		{
+			"name": "1. Hello World!",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "1. Request info",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "Test",
+					"options": {
+						"raw": {
+							"language": "text"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3000/req-info",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"req-info"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "2. Get index",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:5000/html",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"html"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "2. Get png",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:5000/png",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"png"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "2. Get name",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:5000/png",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"png"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "2. Xmlhttprequest",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:5000/xmlhttprequest",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"xmlhttprequest"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "2. Fetch",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:5000/fetch",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"fetch"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "2. Jquery",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:5000/jquery",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"jquery"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
