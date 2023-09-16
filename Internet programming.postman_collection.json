@@ -155,6 +155,50 @@
 				}
 			},
 			"response": []
+		},
+		{
+			"name": "3. Get state",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:5000/",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "3. Get factorial",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:5000/fact?k=150",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"fact"
+					],
+					"query": [
+						{
+							"key": "k",
+							"value": "150"
+						}
+					]
+				}
+			},
+			"response": []
 		}
 	]
 }
